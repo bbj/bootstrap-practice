@@ -13,8 +13,12 @@ body {
 .bg-dark {
 	background-color: #efd592 !important;
 	height: 55px;
+	margin: 10px !important;
 
-
+	.navbar-toggler-icon{
+		background-image: url(./iconmonstr-menu-1.svg) !important;
+	 }
+	
 }
 
 
