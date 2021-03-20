@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #efd592;
+  background-color: #efd592 !important;
 }
 
 .container {
@@ -33,6 +33,7 @@ body {
 }
 
 .container .content .title {
+  margin-top: 70px;
   margin-bottom: 40px;
 }
 
@@ -43,12 +44,15 @@ body {
 }
 
 .container .content .description {
-  width: 400px;
+  max-width: 450px;
   margin-bottom: 40px;
 }
 
 .container .content .description p {
   font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: left;
 }
 
 .container .content button {
