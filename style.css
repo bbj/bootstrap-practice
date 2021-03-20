@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #efd592;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.container .box {
+  height: 500px;
+  width: 500px;
+  background-color: #242d37;
+}
+
+.container .content {
+  height: 500px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.container .content .title {
+  margin-bottom: 40px;
+}
+
+.container .content .description {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.container .content button {
+  background-color: Transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

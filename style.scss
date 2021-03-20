@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+body {
+	background-color: #efd592;
+}
+
+.container {
+	display: flex;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: left;
+	
+
+.box {
+	height: 500px;
+	width: 500px;
+	background-color: #242d37;
+}
+
+.content {
+	height: 500px;
+	width: 500px;
+	margin-left: 50px;
+
+
+	.title {
+		margin-bottom: 40px;
+	}
+	.description {
+		width: 400px;
+		margin-bottom: 40px;
+	}
+	button{
+    background-color: Transparent;
+		border: none;
+		overflow: hidden;
+    outline:none;
+		cursor:pointer;
+	}
+}
+
+}
