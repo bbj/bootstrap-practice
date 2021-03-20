@@ -8,6 +8,7 @@
 
 body {
 	background-color: #efd592 !important;
+	overflow: hidden;
 }
 
 .bg-dark {
@@ -20,8 +21,12 @@ body {
 	 }
 	
 }
-
-
+.navbar-toggler{
+	&:focus{	
+	box-shadow: none !important;
+		}
+	}
+	
 .container {
 	display: flex;
   margin: 30px auto;
@@ -67,17 +72,17 @@ body {
     background-color: Transparent;
 		border: none;
 		overflow: hidden;
-    outline:none;
+    outline: none !important;
 		cursor:pointer;
 		font-family: 'Poppins', sans-serif;
 		font-weight: 700;
 		font-size: 15px;
 		letter-spacing: 3px;
+	
 	}
 }
 
 }
-
 
 @media screen and (max-width: 736px) {
 	body{

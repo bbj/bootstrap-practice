@@ -9,6 +9,7 @@
 
 body {
   background-color: #efd592 !important;
+  overflow: hidden;
 }
 
 .bg-dark {
@@ -19,6 +20,11 @@ body {
 
 .bg-dark .navbar-toggler-icon {
   background-image: url(./iconmonstr-menu-1.svg) !important;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .container {
@@ -69,7 +75,7 @@ body {
   background-color: Transparent;
   border: none;
   overflow: hidden;
-  outline: none;
+  outline: none !important;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
